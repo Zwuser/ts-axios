@@ -1,6 +1,6 @@
 module.exports = {
   parser: "@typescript-eslint/parser",
-  extends: ["airbnd-base","plugin:prettier/recommended","plugin:@typescript-eslint/recommended"],
+  extends: ['plugin:@typescript-eslint/recommended','prettier/@typescript-eslint', 'plugin:prettier/recommended'],
   plugins: ["@typescript-eslint", "prettier"],
   rules: {}
 };
